@@ -8,20 +8,11 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
-  - enabled: 0
-    path: Assets/Scenes/ArbreDeveloppement.unity
-    guid: 6da976b99793280689575f5d4ab7beee
-  - enabled: 0
-    path: Assets/Scenes/Menu_Main.unity
-    guid: 412582a638c935742a7f2c6a53bec2e0
-  - enabled: 0
-    path: Assets/Scenes/ArbreDeveloppementV2.unity
-    guid: 37a1addf371f52852beb0271f9699346
   - enabled: 1
-    path: Assets/Scenes/Score.unity
-    guid: a92c425bed68fe54b8d1cb5561716387
+    path: Assets/Scenes/Scenario.unity
+    guid: 72e2739854de615458c9c9c80adc8f9d
   m_configObjects:
-    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: a34c340eabd54f2b7b78ae74b191e70d,
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 4f6c3a33bfa7a0242bb511053cadbb58,
       type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 20fb189e065380741aec0b9f40cfba9e,
       type: 2}
