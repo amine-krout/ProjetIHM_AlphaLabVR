@@ -142,6 +142,8 @@ Library: lib_burst_generated
 --compilation-defines=MODULE_PHYSICS_EXISTS
 --compilation-defines=MODULE_PHYSICS_2D_EXISTS
 --compilation-defines=MODULE_PARTICLE_SYSTEM_EXISTS
+--compilation-defines=UNITY_INPUT_SYSTEM
+--compilation-defines=XR_MGMT_GTE_320
 --compilation-defines=INPUT_SYSTEM_1_4_OR_NEWER
 --compilation-defines=INPUT_SYSTEM_1_1_OR_NEWER
 --compilation-defines=ANIMATION_MODULE_PRESENT
@@ -152,8 +154,6 @@ Library: lib_burst_generated
 --compilation-defines=INCLUDE_LEGACY_INPUT_HELPERS
 --compilation-defines=UNITY_ANALYTICS
 --compilation-defines=TIMELINE_FRAMEACCURATE
---compilation-defines=UNITY_INPUT_SYSTEM
---compilation-defines=XR_MGMT_GTE_320
 --generate-link-xml=Temp\burst.link.xml
 --output=D:\DDocuments\Unity_files\ProjetIHM_AlphaLabVR\Temp\StagingArea\tempburstlibs\armeabi-v7a\lib_burst_generated
 --root-assembly=D:\DDocuments\Unity_files\ProjetIHM_AlphaLabVR\Temp\StagingArea\Data\Managed\UnityEngine.UI.dll
@@ -164,6 +164,7 @@ Library: lib_burst_generated
 --root-assembly=D:\DDocuments\Unity_files\ProjetIHM_AlphaLabVR\Temp\StagingArea\Data\Managed\Unity.RenderPipelines.Universal.Runtime.dll
 --root-assembly=D:\DDocuments\Unity_files\ProjetIHM_AlphaLabVR\Temp\StagingArea\Data\Managed\Unity.VisualScripting.Flow.dll
 --root-assembly=D:\DDocuments\Unity_files\ProjetIHM_AlphaLabVR\Temp\StagingArea\Data\Managed\Unity.VisualScripting.Core.dll
+--root-assembly=D:\DDocuments\Unity_files\ProjetIHM_AlphaLabVR\Temp\StagingArea\Data\Managed\Unity.XR.Oculus.dll
 --root-assembly=D:\DDocuments\Unity_files\ProjetIHM_AlphaLabVR\Temp\StagingArea\Data\Managed\Unity.Services.Core.Environments.Internal.dll
 --root-assembly=D:\DDocuments\Unity_files\ProjetIHM_AlphaLabVR\Temp\StagingArea\Data\Managed\Unity.TextMeshPro.dll
 --root-assembly=D:\DDocuments\Unity_files\ProjetIHM_AlphaLabVR\Temp\StagingArea\Data\Managed\Unity.Burst.dll
@@ -196,7 +197,6 @@ Library: lib_burst_generated
 --root-assembly=D:\DDocuments\Unity_files\ProjetIHM_AlphaLabVR\Temp\StagingArea\Data\Managed\Unity.XR.OpenXR.Features.RuntimeDebugger.dll
 --root-assembly=D:\DDocuments\Unity_files\ProjetIHM_AlphaLabVR\Temp\StagingArea\Data\Managed\Unity.RenderPipelines.Universal.Shaders.dll
 --root-assembly=D:\DDocuments\Unity_files\ProjetIHM_AlphaLabVR\Temp\StagingArea\Data\Managed\Unity.XR.OpenXR.Features.OculusQuestSupport.dll
---root-assembly=D:\DDocuments\Unity_files\ProjetIHM_AlphaLabVR\Temp\StagingArea\Data\Managed\Unity.XR.Oculus.dll
 --assembly-folder=D:\DDocuments\Unity_files\ProjetIHM_AlphaLabVR\Temp\StagingArea\Data\Managed\
 --pdb-search-paths=Temp/ManagedSymbols/
 --method=Unity.Jobs.IJobForExtensions+ForJobStruct`1[[UnityEngine.Rendering.Universal.ReorderJob`1[[UnityEngine.Rendering.Universal.LightMinMaxZ, Unity.RenderPipelines.Universal.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], Unity.RenderPipelines.Universal.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(UnityEngine.Rendering.Universal.ReorderJob`1[[UnityEngine.Rendering.Universal.LightMinMaxZ, Unity.RenderPipelines.Universal.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]&, Unity.RenderPipelines.Universal.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)--e943843acfb78f5f2f3716a6553740d9
