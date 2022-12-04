@@ -11,10 +11,10 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/ObjectsInteraction2.unity
     guid: 5ae514dd1ecdce746b513208df9b10c4
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/ObjectsInteraction 4.unity
     guid: 98abc003d28ee244496fad24ea851e2b
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Final Interaction.unity
     guid: b0e5b940e8c89e54f81040b236f5e134
   - enabled: 0
