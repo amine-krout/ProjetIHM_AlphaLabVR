@@ -73,6 +73,3 @@ crashlytics-build.properties
 
 # VSCode temp files
 .vscode/
-
-/AlphaLab_BackUpThisFolder_ButDontShipItWithYourGame
-/AlphaLab_BurstDebugInformation_DoNotShip
