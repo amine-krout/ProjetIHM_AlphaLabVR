@@ -8,7 +8,6 @@ public class OvrAvatarPacket
 {
     // Used with SDK driven packet flow
     public IntPtr ovrNativePacket = IntPtr.Zero;
-
     // ===============================================================
     // All code below used for unity only pose blending option.
     // ===============================================================
@@ -62,7 +61,7 @@ public class OvrAvatarPacket
         return OvrAvatarDriver.PoseFrame.Interpolate(a, b, t);
     }
 
-    public static OvrAvatarPacket Read(Stream stream)
+    public static OvrAvatarPacket Read(System.IO.Stream stream)
     {
         BinaryReader reader = new BinaryReader(stream);
 
@@ -92,7 +91,7 @@ public class OvrAvatarPacket
         return new OvrAvatarPacket(frameTimes, frames, audioPackets);
     }
 
-    public void Write(Stream stream)
+    public void Write(System.IO.Stream stream)
     {
         BinaryWriter writer = new BinaryWriter(stream);
 

@@ -146,7 +146,6 @@ Library: lib_burst_generated
 --compilation-defines=MODULE_PARTICLE_SYSTEM_EXISTS
 --compilation-defines=UNITY_INPUT_SYSTEM
 --compilation-defines=XR_MGMT_GTE_320
---compilation-defines=USING_XR_SDK_OPENXR
 --compilation-defines=USING_COMPATIBLE_OCULUS_XR_PLUGIN_VERSION
 --compilation-defines=USING_URP
 --compilation-defines=USING_MRC_COMPATIBLE_URP_VERSION
@@ -160,8 +159,8 @@ Library: lib_burst_generated
 --compilation-defines=INCLUDE_UGUI
 --compilation-defines=INCLUDE_INPUT_SYSTEM
 --compilation-defines=INCLUDE_LEGACY_INPUT_HELPERS
---compilation-defines=UNITY_ANALYTICS
 --compilation-defines=TIMELINE_FRAMEACCURATE
+--compilation-defines=UNITY_ANALYTICS
 --generate-link-xml=Temp\burst.link.xml
 --output=C:\Users\HP\Desktop\IMT Atlantique - IHM\ProjetIHM_AlphaLabVR\Temp\StagingArea\tempburstlibs\armeabi-v7a\lib_burst_generated
 --root-assembly=C:\Users\HP\Desktop\IMT Atlantique - IHM\ProjetIHM_AlphaLabVR\Temp\StagingArea\Data\Managed\UnityEngine.UI.dll
@@ -188,7 +187,6 @@ Library: lib_burst_generated
 --root-assembly=C:\Users\HP\Desktop\IMT Atlantique - IHM\ProjetIHM_AlphaLabVR\Temp\StagingArea\Data\Managed\Facebook.WitAI.dll
 --root-assembly=C:\Users\HP\Desktop\IMT Atlantique - IHM\ProjetIHM_AlphaLabVR\Temp\StagingArea\Data\Managed\Unity.Services.Core.Internal.dll
 --root-assembly=C:\Users\HP\Desktop\IMT Atlantique - IHM\ProjetIHM_AlphaLabVR\Temp\StagingArea\Data\Managed\Unity.XR.CoreUtils.dll
---root-assembly=C:\Users\HP\Desktop\IMT Atlantique - IHM\ProjetIHM_AlphaLabVR\Temp\StagingArea\Data\Managed\Unity.XR.OpenXR.dll
 --root-assembly=C:\Users\HP\Desktop\IMT Atlantique - IHM\ProjetIHM_AlphaLabVR\Temp\StagingArea\Data\Managed\Unity.Timeline.dll
 --root-assembly=C:\Users\HP\Desktop\IMT Atlantique - IHM\ProjetIHM_AlphaLabVR\Temp\StagingArea\Data\Managed\Oculus.Interaction.Samples.dll
 --root-assembly=C:\Users\HP\Desktop\IMT Atlantique - IHM\ProjetIHM_AlphaLabVR\Temp\StagingArea\Data\Managed\Unity.Mathematics.dll
@@ -212,15 +210,11 @@ Library: lib_burst_generated
 --root-assembly=C:\Users\HP\Desktop\IMT Atlantique - IHM\ProjetIHM_AlphaLabVR\Temp\StagingArea\Data\Managed\Unity.Services.Core.Networking.dll
 --root-assembly=C:\Users\HP\Desktop\IMT Atlantique - IHM\ProjetIHM_AlphaLabVR\Temp\StagingArea\Data\Managed\Facebook.Wit.TTS.dll
 --root-assembly=C:\Users\HP\Desktop\IMT Atlantique - IHM\ProjetIHM_AlphaLabVR\Temp\StagingArea\Data\Managed\Facebook.Wit.TTS.Samples.dll
---root-assembly=C:\Users\HP\Desktop\IMT Atlantique - IHM\ProjetIHM_AlphaLabVR\Temp\StagingArea\Data\Managed\Unity.XR.OpenXR.Features.ConformanceAutomation.dll
 --root-assembly=C:\Users\HP\Desktop\IMT Atlantique - IHM\ProjetIHM_AlphaLabVR\Temp\StagingArea\Data\Managed\Unity.Services.Core.Registration.dll
---root-assembly=C:\Users\HP\Desktop\IMT Atlantique - IHM\ProjetIHM_AlphaLabVR\Temp\StagingArea\Data\Managed\Unity.XR.OpenXR.Features.MockRuntime.dll
 --root-assembly=C:\Users\HP\Desktop\IMT Atlantique - IHM\ProjetIHM_AlphaLabVR\Temp\StagingArea\Data\Managed\Unity.Subsystem.Registration.dll
 --root-assembly=C:\Users\HP\Desktop\IMT Atlantique - IHM\ProjetIHM_AlphaLabVR\Temp\StagingArea\Data\Managed\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
 --root-assembly=C:\Users\HP\Desktop\IMT Atlantique - IHM\ProjetIHM_AlphaLabVR\Temp\StagingArea\Data\Managed\Unity.RenderPipelines.Core.ShaderLibrary.dll
---root-assembly=C:\Users\HP\Desktop\IMT Atlantique - IHM\ProjetIHM_AlphaLabVR\Temp\StagingArea\Data\Managed\Unity.XR.OpenXR.Features.RuntimeDebugger.dll
 --root-assembly=C:\Users\HP\Desktop\IMT Atlantique - IHM\ProjetIHM_AlphaLabVR\Temp\StagingArea\Data\Managed\Unity.RenderPipelines.Universal.Shaders.dll
---root-assembly=C:\Users\HP\Desktop\IMT Atlantique - IHM\ProjetIHM_AlphaLabVR\Temp\StagingArea\Data\Managed\Unity.XR.OpenXR.Features.OculusQuestSupport.dll
 --assembly-folder=C:\Users\HP\Desktop\IMT Atlantique - IHM\ProjetIHM_AlphaLabVR\Temp\StagingArea\Data\Managed\
 --pdb-search-paths=Temp/ManagedSymbols/
 --method=Unity.Jobs.IJobForExtensions+ForJobStruct`1[[UnityEngine.Rendering.Universal.ReorderJob`1[[UnityEngine.Rendering.Universal.LightMinMaxZ, Unity.RenderPipelines.Universal.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], Unity.RenderPipelines.Universal.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(UnityEngine.Rendering.Universal.ReorderJob`1[[UnityEngine.Rendering.Universal.LightMinMaxZ, Unity.RenderPipelines.Universal.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]&, Unity.RenderPipelines.Universal.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)--e943843acfb78f5f2f3716a6553740d9
