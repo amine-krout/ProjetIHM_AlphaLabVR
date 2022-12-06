@@ -18,7 +18,7 @@ EditorBuildSettings:
     path: Assets/Scenes/ArbreDeveloppement.unity
     guid: 6da976b99793280689575f5d4ab7beee
   - enabled: 1
-    path: Assets/Scenes/Scenario.unity
+    path: Assets/Scenes/Scenario_Libre.unity
     guid: 72e2739854de615458c9c9c80adc8f9d
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 4f6c3a33bfa7a0242bb511053cadbb58,

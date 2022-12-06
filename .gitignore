@@ -73,3 +73,5 @@ crashlytics-build.properties
 
 # VSCode temp files
 .vscode/
+
+/app_BurstDebugInformation_DoNotShip/
