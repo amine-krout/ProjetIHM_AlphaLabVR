@@ -65,13 +65,12 @@ public class PourDetector : MonoBehaviour
        liquid.GetComponent<Renderer>().material.SetFloat("_Fill", liquid.GetComponent<Renderer>().material.GetFloat("_Fill") + 0.1f);
     }
      private void OnTriggerStay(Collider other){
-            if(!isPouring){
+            if(!isPouring & other.gameObject.TryGetComponent(typeof(ParticleSystem), out Component component)){
                 if (Time.time > nextPour){
                     nextPour = Time.time + pourRate;
                     Fill();
                 }
             }
-            
     }
 
 }
