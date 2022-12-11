@@ -22,6 +22,10 @@ public class MainMenu : MonoBehaviour
         SceneManager.LoadScene(sceneName);
     }
 
+    public void ExitLab() {
+    	Application.Quit();
+    }
+
     public void LoadScenarioScene(string sceneName) {
 	SceneManager.LoadScene(sceneName);
     }

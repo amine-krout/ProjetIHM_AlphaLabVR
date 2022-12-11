@@ -59,13 +59,16 @@ public class Stream : MonoBehaviour
         }
    }
    private Vector3 FindEndPoint(){
-    RaycastHit hit;
-    Ray ray = new Ray(transform.position, Vector3.down);
-    Physics.Raycast(ray, out hit, 2.0f);
-    Vector3 endPoint = hit.collider ? hit.point : ray.GetPoint(2.0f);
-    return endPoint;
+     RaycastHit hit;
+     Ray ray = new Ray(transform.position, Vector3.down);
+     Physics.Raycast(ray, out hit, 2.0f);
+     Vector3 endPoint = hit.collider ? hit.point : ray.GetPoint(2.0f);
+     return endPoint+new Vector3(0, 0, 0.01f);
    }
+   
    private void MoveToPosition(int index, Vector3 targetPosition){
     lineRenderer.SetPosition(index, targetPosition);
    }
+
+
 }
