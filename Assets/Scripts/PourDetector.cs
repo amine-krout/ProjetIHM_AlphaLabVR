@@ -54,20 +54,23 @@ public class PourDetector : MonoBehaviour
 
     private Stream CreateStream(){
         GameObject streamObject = Instantiate(streamPrefab, origin.position, Quaternion.identity, transform);
-        streamObject.GetComponent <LineRenderer> ().material.color = liquid.GetComponent <MeshRenderer> ().material.GetColor("_topColor");
+        streamObject.GetComponent <LineRenderer> ().material.SetColor("_topColor", transform.GetChild(0).GetComponent<Renderer>().material.GetColor("_topColor"));
+        streamObject.GetComponent <LineRenderer> ().material.SetColor("_sideColor", transform.GetChild(0).GetComponent<Renderer>().material.GetColor("_sideColor"));
         return streamObject.GetComponent<Stream>();
     }
 
     private void Drain(){
-       liquid.GetComponent<Renderer>().material.SetFloat("_Fill", liquid.GetComponent<Renderer>().material.GetFloat("_Fill") - 0.1f);
+       liquid.GetComponent<Renderer>().material.SetFloat("_Fill", liquid.GetComponent<Renderer>().material.GetFloat("_Fill") - 0.01f);
     }
     private void Fill(){
        liquid.GetComponent<Renderer>().material.SetFloat("_Fill", liquid.GetComponent<Renderer>().material.GetFloat("_Fill") + 0.1f);
     }
-     private void OnTriggerStay(Collider other){
+     private void OnTriggerEnter(Collider other){
             if(!isPouring & other.gameObject.TryGetComponent(typeof(ParticleSystem), out Component component)){
                 if (Time.time > nextPour){
                     nextPour = Time.time + pourRate;
+                    transform.GetChild(0).GetComponent<Renderer>().material.SetColor("_sideColor", Color.white);
+                    transform.GetChild(0).GetComponent<Renderer>().material.SetColor("_topColor", Color.white);
                     Fill();
                 }
             }
