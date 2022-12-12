@@ -488,8 +488,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3836380929154309743}
-  m_LocalRotation: {x: 0.009397071, y: -0, z: -0, w: 0.99995583}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0.5655531, y: -0, z: -0, w: 0.8247119}
+  m_LocalPosition: {x: 0.072, y: 0.595, z: -0.123}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -497,7 +497,7 @@ Transform:
   - {fileID: 229277434}
   m_Father: {fileID: 0}
   m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 1.077, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -68.881, y: 0, z: 0}
 --- !u!1 &3836380929154309743
 GameObject:
   m_ObjectHideFlags: 0
@@ -608,7 +608,7 @@ Rigidbody:
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
-  m_IsKinematic: 1
+  m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -642,6 +642,8 @@ GameObject:
   - component: {fileID: 7168505168007989219}
   - component: {fileID: 7168505168008987939}
   - component: {fileID: 7168505168008987940}
+  - component: {fileID: 7168505168008987941}
+  - component: {fileID: 7168505168008987942}
   m_Layer: 0
   m_Name: F_Liquid_04
   m_TagString: Untagged
@@ -729,6 +731,36 @@ MonoBehaviour:
   MaxWobble: 0.03
   WobbleSpeed: 1
   Recovery: 1
+--- !u!54 &7168505168008987941
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7168505168006798307}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!64 &7168505168008987942
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7168505168006798307}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300002, guid: 79155767bdf4e994daec7f2f4a783415, type: 3}
 --- !u!23 &7348174344679381070
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -791,6 +823,8 @@ GameObject:
   - component: {fileID: 7348174344680479374}
   - component: {fileID: 7348174344679381070}
   - component: {fileID: 7348174344681806511}
+  - component: {fileID: 7348174344681806512}
+  - component: {fileID: 7348174344681806513}
   m_Layer: 0
   m_Name: F_Liquid_05
   m_TagString: Untagged
@@ -828,6 +862,36 @@ MonoBehaviour:
   MaxWobble: 0.03
   WobbleSpeed: 1
   Recovery: 1
+--- !u!54 &7348174344681806512
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7348174344681571982}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!64 &7348174344681806513
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7348174344681571982}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300002, guid: d8fafffe727d6c241a606d309b77af7d, type: 3}
 --- !u!1 &8086183156706526936
 GameObject:
   m_ObjectHideFlags: 0
