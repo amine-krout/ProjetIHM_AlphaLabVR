@@ -2288,6 +2288,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 687143308}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &705642482 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8830514213611714089, guid: 46d97e8c8e1ca954cac3e4017e67413a,
+    type: 3}
+  m_PrefabInstance: {fileID: 29260843}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &770459200
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5612,6 +5618,11 @@ PrefabInstance:
       propertyPath: character
       value: 
       objectReference: {fileID: 1806590912}
+    - target: {fileID: 6657123820649159954, guid: 10d911852cd4f724f80209d281093c5d,
+        type: 3}
+      propertyPath: selectedEquipment
+      value: 
+      objectReference: {fileID: 705642482}
     - target: {fileID: 6657123820649159955, guid: 10d911852cd4f724f80209d281093c5d,
         type: 3}
       propertyPath: m_MaxRaycastDistance
