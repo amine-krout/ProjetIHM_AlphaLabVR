@@ -592,7 +592,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.7735849, g: 0.7735849, b: 0.7735849, a: 1}
+  m_Color: {r: 0.27450982, g: 0.27450982, b: 0.27450982, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -2249,7 +2249,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.7735849, g: 0.7735849, b: 0.7735849, a: 1}
+  m_Color: {r: 0.27450982, g: 0.27450982, b: 0.27450982, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -2942,9 +2942,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Description du mode : \nLorem ipsum dolor sit amet, consectetuer adipiscing
-    elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam
-    erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ..."
+  m_text: "Description du mode : \nDans ce mode, vous seriez guid\xE9s par des instructions
+    pr\xE9sent\xE9s par l'application et d\xE9couvrir l'environnement de laboratoire."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -4131,7 +4130,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1296385554
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4150,7 +4149,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1606, y: 740}
+  m_AnchoredPosition: {x: -1601, y: 740}
   m_SizeDelta: {x: 250, y: 250}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1296385555
@@ -4841,9 +4840,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Description du mode : \nLorem ipsum dolor sit amet, consectetuer adipiscing
-    elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam
-    erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ..."
+  m_text: "Description du mode : \nDans ce mode, vous pouvez choisir un parmi plusieurs
+    d\xE9fi pr\xE9sent\xE9s, ainsi que suivre votre avancement et d\xE9verouiller
+    des nouveaux challenges."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -5777,7 +5776,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.7735849, g: 0.7735849, b: 0.7735849, a: 1}
+  m_Color: {r: 0.2735849, g: 0.2735849, b: 0.2735849, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -6050,9 +6049,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Description du mode : \nLorem ipsum dolor sit amet, consectetuer adipiscing
-    elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam
-    erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ..."
+  m_text: "Description du mode : \nDans ce mode, vous \xEAtes libres. Vous pouvez
+    faire ce que vous voulez, amusez-vous ! "
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
